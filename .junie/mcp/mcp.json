@@ -6,6 +6,15 @@
                 "/Users/kauffinger/Docker/wordbench/artisan",
                 "boost:mcp"
             ]
+        },
+        "herd": {
+            "command": "/Users/kauffinger/Library/Application Support/Herd/bin/php84",
+            "args": [
+                "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
+            ],
+            "env": {
+                "SITE_PATH": "/Users/kauffinger/Docker/wordbench"
+            }
         }
     }
 }
